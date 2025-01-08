@@ -8,7 +8,7 @@ Physics Papers on arXiv (2018-2023)
 - **Paper-Author Relationships:** 616,586  
 
 ## Download  
-You can download the dataset from [Google Drive](https://drive.google.com/drive/folders/1CfOAFXrrf6o9d5TMdlO5GHcIME4_9IZZ?usp=drive_link).  
+You can download the dataset from [Google Drive](https://drive.google.com/file/d/1wLiGldOz-14aODWyKPZgNeBAm6q1zQtk/view?usp=drive_link).  
 
 ## Source  
 - [arXiv](https://arxiv.org/)  
