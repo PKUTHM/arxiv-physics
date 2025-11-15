@@ -1,4 +1,4 @@
-# arxiv-physics  
+# arxiv-physics: A Large-Scale Physics Citation and Authorship Dataset (222k Papers)
 Physics Papers on arXiv (2018-2023)  
 
 - **Number of papers:** 222,770  
