@@ -21,7 +21,7 @@ The dataset is structured as a normalized relational database with 6 interconnec
 | 4 | **Paper-Category** | `4Paper_Category.csv` | 155,061 | Records of Secondary Categories only |
 | 5 | **Authors** | `5Author.csv` | 143,691 | Unique researchers including ORCID identifiers |
 | 6 | **Authorship** | `6Paper_Author.csv` | 616,585 | Many-to-many mappings between papers and authors |
-| | **Total Records** | | **2,733,846** | **Total logical relational entries in the database** |
+| | **Total Records** | | **2,733,846** |  |
 
 ## 🏆 RelBench Integration
 This dataset is a part of the **RelBench** suite. For standard tasks like `paper-citation` prediction, we recommend using the standard splits provided in the library:
