@@ -57,7 +57,7 @@ If you use this dataset in your research, please cite the following:
   journal = {GitHub repository},
   howpublished = {\url{[https://github.com/PKUTHM/arxiv-physics](https://github.com/PKUTHM/arxiv-physics)}}
 }
+```
 
 ## License
 The metadata and dataset files are licensed under a [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). 
-The code provided in this repository is licensed under the [MIT License](https://opensource.org/licenses/MIT).
