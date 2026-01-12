@@ -9,13 +9,19 @@ It captures the complex evolution of scientific research through:
 * **Citations:** Over 1.5M directed links modeling scientific influence.
 * **Authorship:** Mapped paper-author relationships including ORCID identifiers.
 * **Taxonomy:** Hierarchical physics categories for precise classification.
-
+* 
 ## 📊 Dataset Statistics
-- **Number of papers:** 222,770
-- **Number of citations:** 1,595,688
-- **Number of authors:** 143,692
-- **Paper-Author Relationships:** 616,586
-- **Features:** arXiv_Code, Title, Abstract, Submission_Date, DOI, Name, ORCID.
+The dataset is structured as a normalized relational database with 6 interconnected tables.
+
+| # | Entity / Relationship | CSV File | Count | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | **Papers** | `1Paper.csv` | 222,769 | Core metadata (Title, Abstract, Date, DOI) and the Primary Category |
+| 2 | **Categories** | `2Category.csv` | 53 | Taxonomy of physics research areas |
+| 3 | **Citations** | `3Citation.csv` | 1,595,687 | Directed reference links verified via Crossref API |
+| 4 | **Paper-Category** | `4Paper_Category.csv` | 155,061 | Records of Secondary Categories only |
+| 5 | **Authors** | `5Author.csv` | 143,691 | Unique researchers including ORCID identifiers |
+| 6 | **Authorship** | `6Paper_Author.csv` | 616,585 | Many-to-many mappings between papers and authors |
+| | **Total Records** | | **2,733,846** | **Total logical relational entries in the database** |
 
 ## 🏆 RelBench Integration
 This dataset is a part of the **RelBench** suite. For standard tasks like `paper-citation` prediction, we recommend using the standard splits provided in the library:
