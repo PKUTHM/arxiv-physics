@@ -9,7 +9,7 @@ It captures the complex evolution of scientific research through:
 * **Citations:** Over 1.5M directed links modeling scientific influence.
 * **Authorship:** Mapped paper-author relationships including ORCID identifiers.
 * **Taxonomy:** Hierarchical physics categories for precise classification.
-* 
+  
 ## 📊 Dataset Statistics
 The dataset is structured as a normalized relational database with 6 interconnected tables.
 
