@@ -1,52 +1,36 @@
 # arXiv-physics: A Large-Scale Physics Citation and Authorship Dataset (222k Papers)
 
-> 🚀 **News:** This dataset has been officially adopted by **[RelBench](https://relbench.stanford.edu/)**! It serves as a core benchmark for evaluating end-to-end deep learning on relational databases.
->
-> 💻 **Code & Benchmark:** [https://github.com/snap-stanford/relbench](https://github.com/snap-stanford/relbench)
+> 🚀 **News:** This dataset has been officially adopted by **[RelBench](https://relbench.stanford.edu/datasets/rel-arxiv/)**! It serves as a core benchmark for evaluating end-to-end deep learning on relational databases.
 
-Physics Papers on arXiv (2018-2023)
+## 📝 Introduction
+**arXiv-physics** is a large-scale relational dataset curated from [arXiv](https://arxiv.org/), specifically focusing on the **Physics domain (2018-2023)**. Unlike generic text-only datasets, it is structured as a rich relational database designed for **Relational Deep Learning (RDL)**. 
 
+It captures the complex evolution of scientific research through:
+* **Citations:** Over 1.5M directed links modeling scientific influence.
+* **Authorship:** Mapped paper-author relationships including ORCID identifiers.
+* **Taxonomy:** Hierarchical physics categories for precise classification.
+
+## 📊 Dataset Statistics
 - **Number of papers:** 222,770
-- **Number of citations (inter-paper references):** 1,595,688
-- **Label Information:** 222,770 primary category labels, 155,062 other category labels
+- **Number of citations:** 1,595,688
 - **Number of authors:** 143,692
 - **Paper-Author Relationships:** 616,586
-
-- **Paper Details:** arXiv_Code, Title, Abstract, Submission_Date, DOI
-- **Author Details:** Name, ORCID
+- **Features:** arXiv_Code, Title, Abstract, Submission_Date, DOI, Name, ORCID.
 
 ## 🏆 RelBench Integration
-This dataset is part of the **RelBench** suite (by Snap Research & Stanford), designed for efficient and reproducible research on Relational Deep Learning.
+This dataset is a part of the **RelBench** suite. For standard tasks like `paper-citation` prediction, we recommend using the standard splits provided in the library:
+- **GitHub:** [snap-stanford/relbench](https://github.com/snap-stanford/relbench)
+- **Website:** [relbench.stanford.edu](https://relbench.stanford.edu/)
 
-If you are using this dataset for benchmarking, we recommend using the standard data splits and evaluation metrics provided in the RelBench library:
+## 📥 Download
+- **Raw Data:** [Google Drive](https://drive.google.com/drive/folders/1CfOAFXrrf6o9d5TMdlO5GHcIME4_9IZZ?usp=drive_link) .
+- **Via Python:** Use `relbench.datasets.get_dataset("rel-arxiv")`.
 
-- **GitHub Repository:** [snap-stanford/relbench](https://github.com/snap-stanford/relbench)
-- **Paper:** [RelBench: A Benchmark for Deep Learning on Relational Databases](https://arxiv.org/abs/2407.20060)
-- **Website & Leaderboard:** [relbench.stanford.edu](https://relbench.stanford.edu/)
+## 🎓 Contributors
+Contributed by **Tang Haiming, He Sirui, Li Mengjie, and Guo Zhimao** from the **National University of Singapore (NUS)**.
 
-## Download
-You can download the raw dataset from [Google Drive](https://drive.google.com/drive/folders/1CfOAFXrrf6o9d5TMdlO5GHcIME4_9IZZ?usp=drive_link).
-*(Alternatively, load via `relbench` Python package for standard tasks)*
-
-## Source
-- [arXiv](https://arxiv.org/)
-- [Crossref](https://www.crossref.org/)
-
-## Contributors
-This dataset was contributed by:
-- **Tang Haiming**
-- **He Sirui**
-- **Li Mengjie**
-- **Guo Zhimao**
-  
-All from the **National University of Singapore (NUS)**
-
-## Contact
-For any feedback, suggestions, or inquiries, feel free to reach out to **Tang Haiming** at [e1327931@u.nus.edu](mailto:e1327931@u.nus.edu).
-
-## Citation
-
-If you use this dataset in your research, please cite the following:
+## 📜 Citation
+If you use this dataset, please use the following BibTeX for proper attribution to the original authors:
 
 ```bibtex
 @misc{arxiv_physics_dataset,
