@@ -45,7 +45,7 @@ If you use this dataset, please use the following BibTeX for proper attribution 
   year = {2024},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{[https://github.com/PKUTHM/arxiv-physics](https://github.com/PKUTHM/arxiv-physics)}}
+  howpublished = {\url{https://github.com/PKUTHM/arxiv-physics}}
 }
 ```
 
