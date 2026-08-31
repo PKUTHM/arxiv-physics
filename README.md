@@ -36,7 +36,7 @@ This dataset is a part of the **RelBench** suite. For standard tasks like `paper
 Contributed by **Tang Haiming, He Sirui, Li Mengjie, and Guo Zhimao** from the **National University of Singapore (NUS)**.
 
 ## 📬 Contact
-If you have any questions or suggestions regarding the dataset, please feel free to reach out to Haiming Tang at **haiming@comp.nus.edu.sg**
+If you have any questions or suggestions regarding the dataset, please feel free to reach out to Haiming at **haiming@comp.nus.edu.sg**
 
 ## 📜 Citation
 If you use this dataset, please use the following BibTeX for proper attribution to the original authors:
